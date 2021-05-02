@@ -2,6 +2,7 @@
 tg_bot_check 是一个利用telegram bot做的域名检测和服务器检测的工具
 ## Usage
 ```
+0、python3环境
 1、创建telegram机器人 获取token
 2、创建群组(如果需要)
 3、修改check_server.py 里面的 token、chat_id 、mail等等内容
