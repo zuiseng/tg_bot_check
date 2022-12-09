@@ -59,7 +59,7 @@ def main():
                 print("Hello!!!!!! {} Eror ".format(str(ip)[4:]))
                 message += "Hello!!!!!! {} Eror ".format(str(ip)[4:])
     if(len(message)>4):
-        bot.send_message(chat_id=chat_id, text='@beeyer @logan_v8 @xt259 \n出问题了，快来看看')
+        bot.send_message(chat_id=chat_id, text='@你的飞机号码提醒 \n出问题了，快来看看')
         send_telegram("【检查服务器:】\nSorry:"+message)
         send_mail(message)
     else:
